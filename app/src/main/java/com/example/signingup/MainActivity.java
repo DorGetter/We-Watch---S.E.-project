@@ -115,8 +115,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
 
-
-
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                     DatabaseReference referenceUser = FirebaseDatabase.getInstance().getReference("Users");
                     DatabaseReference referenceManager = FirebaseDatabase.getInstance().getReference("Managers");

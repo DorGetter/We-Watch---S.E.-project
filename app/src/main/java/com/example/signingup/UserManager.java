@@ -2,10 +2,9 @@ package com.example.signingup;
 
 public class UserManager {
 
-        private String fullName;
-        private int age;
-        private String email;
-        final private String userRef = "UserManager";
+        private String          fullName;
+        private int             age;
+        private String          email;
 
         public UserManager() {
             // Default constructor required for calls to DataSnapshot.getValue(User.class)
@@ -30,9 +29,6 @@ public class UserManager {
             return email;
         }
 
-        public String getUserRef() {
-            return userRef;
-        }
 
 
 }

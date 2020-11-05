@@ -4,8 +4,6 @@ import java.util.HashMap;
 
 public class User {
 
-    final private String userRef = "User";
-
     private String fullName;
     private int age;
     private String email;
@@ -33,10 +31,6 @@ public class User {
 
     public String getEmail() {
         return email;
-    }
-
-    public String getUserRef() {
-        return userRef;
     }
 
     public HashMap<String, String> getFriends() {
