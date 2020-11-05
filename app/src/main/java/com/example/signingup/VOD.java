@@ -36,6 +36,10 @@ public class VOD extends AppCompatActivity implements View.OnClickListener {
                 break;
             case R.id.Family:
                 break;
+            case R.id.SearchMovie:
+                break;
+            case R.id.OpenRequestUser:
+                break;
         }
     }
     public void ClickMenu(View view){
