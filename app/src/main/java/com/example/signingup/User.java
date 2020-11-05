@@ -9,6 +9,7 @@ public class User {
     private String email;
     private String userUid;
     private HashMap<String,String> friends = new HashMap<>();
+    private HashMap<String,String> MyMovies = new HashMap<>();
 
     public User() {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
