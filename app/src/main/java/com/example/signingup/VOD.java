@@ -6,6 +6,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class VOD extends AppCompatActivity {
     DrawerLayout drawerLayout;
@@ -22,6 +23,11 @@ public class VOD extends AppCompatActivity {
     public void ClickMenu(View view){
         //Open drawer
         drawerLayout.openDrawer(GravityCompat.START);
+    }
+
+    public void Comedy(View view){
+
+        Toast.makeText(VOD.this, "Comedy pressed",Toast.LENGTH_LONG).show();
     }
 
 //    public void ClickLogo(View view) {

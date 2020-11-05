@@ -13,10 +13,11 @@
         android:src="@drawable/ac_logo3" />
 
     <LinearLayout
+        android:id="@+id/Comedy"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickHome"
+        android:onClick="Comedy"
         android:orientation="horizontal">
 
         <TextView
@@ -42,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickDashboard"
+        android:onClick="Action"
         android:orientation="horizontal">
 
         <TextView
