@@ -6,17 +6,18 @@
     android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/LogoCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:onClick="ClickLogo"
         android:src="@drawable/ac_logo3" />
 
+
     <LinearLayout
+        android:id="@+id/Comedy"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickHome"
         android:orientation="horizontal">
 
         <TextView
@@ -39,10 +40,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/Action"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickDashboard"
         android:orientation="horizontal">
 
         <TextView
@@ -64,10 +65,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/Horror"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickAboutUs"
         android:orientation="horizontal">
 
         <TextView
@@ -89,10 +90,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/Family"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
         android:orientation="horizontal">
 
         <TextView
@@ -110,6 +111,56 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="48dp"
             android:src="@drawable/ac_movie_catagory_family" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SearchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Search Movie"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ac_searchicon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/OpenRequestUser"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Send Request"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ac_requestuser" />
 
     </LinearLayout>
 

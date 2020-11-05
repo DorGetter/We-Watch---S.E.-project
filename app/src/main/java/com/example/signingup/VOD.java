@@ -6,8 +6,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
-public class VOD extends AppCompatActivity {
+public class VOD extends AppCompatActivity implements View.OnClickListener {
     DrawerLayout drawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +20,35 @@ public class VOD extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            //Main layout
+
+            //Tool Bar
+            case R.id.LogoCategory:
+                break;
+            case R.id.Comedy:
+                break;
+            case R.id.Action:
+                break;
+            case R.id.Horror:
+                break;
+            case R.id.Family:
+                break;
+            case R.id.SearchMovie:
+                break;
+            case R.id.OpenRequestUser:
+                break;
+        }
+    }
     public void ClickMenu(View view){
         //Open drawer
         drawerLayout.openDrawer(GravityCompat.START);
+    }
+
+    public void Comedy(View view){
+        Toast.makeText(VOD.this, "Comedy pressed",Toast.LENGTH_LONG).show();
     }
 
 //    public void ClickLogo(View view) {
@@ -42,5 +69,6 @@ public class VOD extends AppCompatActivity {
             drawerLayout.closeDrawer(GravityCompat.START);
         }
     }
+
 
 }
