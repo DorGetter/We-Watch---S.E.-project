@@ -7,14 +7,44 @@
 
     <ImageView
         android:id="@+id/LogoCategory"
+        android:onClick="LogoCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:src="@drawable/ac_logo3" />
 
+    <LinearLayout
+        android:id="@+id/MyMovies"
+        android:onClick="MyMovies"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="My Movies"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ac_mymovies" />
+
+
+    </LinearLayout>
+
+
 
     <LinearLayout
         android:id="@+id/Comedy"
+        android:onClick="Comedy"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -27,7 +57,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Comedy"
-            android:textSize="32dp"
+            android:textSize="24dp"
             android:textStyle="bold"/>
 
         <ImageView
@@ -41,6 +71,7 @@
 
     <LinearLayout
         android:id="@+id/Action"
+        android:onClick="Action"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -53,7 +84,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Action"
-            android:textSize="32dp"
+            android:textSize="24dp"
             android:textStyle="bold"/>
 
         <ImageView
@@ -66,6 +97,7 @@
 
     <LinearLayout
         android:id="@+id/Horror"
+        android:onClick="Horror"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -79,7 +111,7 @@
             android:padding="12dp"
             android:text="Horror"
             android:textStyle="bold"
-            android:textSize="32dp"/>
+            android:textSize="24dp"/>
 
         <ImageView
             android:layout_width="85dp"
@@ -91,6 +123,7 @@
 
     <LinearLayout
         android:id="@+id/Family"
+        android:onClick="Family"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -103,7 +136,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Family"
-            android:textSize="32dp"
+            android:textSize="24dp"
             android:textStyle="bold"/>
 
         <ImageView
@@ -116,6 +149,7 @@
 
     <LinearLayout
         android:id="@+id/SearchMovie"
+        android:onClick="SearchMovie"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -128,7 +162,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Search Movie"
-            android:textSize="32dp"
+            android:textSize="24dp"
             android:textStyle="bold"/>
 
         <ImageView
@@ -141,6 +175,7 @@
 
     <LinearLayout
         android:id="@+id/OpenRequestUser"
+        android:onClick="OpenRequestUser"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_vertical"
@@ -153,7 +188,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Send Request"
-            android:textSize="32dp"
+            android:textSize="24dp"
             android:textStyle="bold"/>
 
         <ImageView
