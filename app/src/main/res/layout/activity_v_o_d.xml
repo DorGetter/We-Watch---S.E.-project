@@ -16,13 +16,8 @@
         <include
             layout="@layout/toolbar_movie_categories"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Movies"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            android:gravity="center"/>
+        <include
+            layout="@layout/movies_display"/>
 
     </LinearLayout>
     <RelativeLayout

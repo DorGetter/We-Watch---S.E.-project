@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="All Movies"
+        android:textColor="#196AAD"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image7"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image9"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image10"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image11"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image12"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ac_mymovies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="405dp"
+        tools:layout_editor_absoluteY="260dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
