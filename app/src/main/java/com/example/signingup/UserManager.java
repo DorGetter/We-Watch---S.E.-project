@@ -1,11 +1,15 @@
 package com.example.signingup;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 public class UserManager {
 
         private String          fullName;
         private int             age;
         private String          email;
-
+        private Collection<String> MyMovies = new ArrayList<>();
+        logger_class log ;
         public UserManager() {
             // Default constructor required for calls to DataSnapshot.getValue(User.class)
         }
