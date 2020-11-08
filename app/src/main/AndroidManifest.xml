@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SigningUp">
-        <activity android:name=".VOD"></activity>
+        <activity android:name=".UploadMovie"></activity>
+        <activity android:name=".VOD" />
         <activity android:name=".Feed" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".ProfileManager" />

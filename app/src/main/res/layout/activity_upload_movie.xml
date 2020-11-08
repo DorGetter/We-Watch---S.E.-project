@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ac_screen"
+    tools:context=".UploadMovie">
+
+
+    <TextView
+        android:id="@+id/uploadMovieTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:background="#196AAD"
+        android:text="Upload Movie"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        />
+    <TextView
+        android:id="@+id/greeting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manager"
+        android:textColor="#196AAD"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/uploadMovieTxt"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#196AAD"
+        app:layout_constraintStart_toStartOf="@+id/uploadMovieTxt"
+        app:layout_constraintTop_toBottomOf="@+id/uploadMovieTxt"
+        android:layout_marginLeft="0dp"/>
+
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="149dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="596dp"
+        android:src="@drawable/ac_logo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"
+        />
+
+    <EditText
+        android:id="@+id/movieInput"
+        android:layout_width="357dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="Movie Name"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="372dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#196AAD"
+        android:text="Upload"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieInput" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

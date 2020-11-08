@@ -26,7 +26,6 @@ public class RegisterManager extends AppCompatActivity implements View.OnClickLi
     private ImageView banner;
     private TextView registerManager;
     private EditText editTextFullName, editTextAge, editTextEmail, editTextPassword;
-//    private ProgressBar progressBar;
     private FirebaseAuth mAuth;
 
 
