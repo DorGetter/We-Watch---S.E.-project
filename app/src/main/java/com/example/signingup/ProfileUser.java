@@ -27,7 +27,7 @@ public class ProfileUser extends AppCompatActivity implements View.OnClickListen
     private DatabaseReference reference
             = FirebaseDatabase.getInstance().getReference("Users");;
 
-    Button feedButton, staticsButton,moviesLibButton,myFavoritesButton,logOut;
+    Button moviesLibButton,feedButton,FriendsButton,myActivityButton,logOut;
 
 
     @Override
@@ -42,15 +42,15 @@ public class ProfileUser extends AppCompatActivity implements View.OnClickListen
 
 
         feedButton          = (Button) findViewById(R.id.FeedButton)        ;
-        staticsButton       = (Button) findViewById(R.id.StaticsButton)     ;
+        myActivityButton    = (Button) findViewById(R.id.myActivityButton)  ;
         moviesLibButton     = (Button) findViewById(R.id.MoviesButton)      ;
-        myFavoritesButton   = (Button) findViewById(R.id.MyFavoritesButton) ;
+        FriendsButton       = (Button) findViewById(R.id.FriendsButton)     ;
         logOut              = (Button) findViewById(R.id.signOut)           ;
 
         feedButton          .setOnClickListener(this);
-        staticsButton       .setOnClickListener(this);
+        myActivityButton    .setOnClickListener(this);
         moviesLibButton     .setOnClickListener(this);
-        myFavoritesButton   .setOnClickListener(this);
+        FriendsButton       .setOnClickListener(this);
         logOut              .setOnClickListener(this);
 
         // greeting the User (Top Left write user name)
@@ -83,12 +83,12 @@ public class ProfileUser extends AppCompatActivity implements View.OnClickListen
             case R.id.FeedButton:
                 startActivity(new Intent(this,Feed.class));
                 break;
-            case R.id.StaticsButton:
+            case R.id.FriendsButton:
                 break;
             case R.id.MoviesButton:
                 startActivity(new Intent(this,VOD.class));
                 break;
-            case R.id.MyFavoritesButton:
+            case R.id.myActivityButton:
                 break;
             case R.id.signOut:
                 startActivity(new Intent( this,MainActivity.class));

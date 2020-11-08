@@ -36,7 +36,6 @@ public class VOD extends AppCompatActivity {
     public void MyMovies(View view){
         Toast.makeText(VOD.this, "My Movies pressed",Toast.LENGTH_SHORT).show();
     }
-
     public void Comedy(View view){
         Toast.makeText(VOD.this, "Comedy pressed",Toast.LENGTH_SHORT).show();
     }

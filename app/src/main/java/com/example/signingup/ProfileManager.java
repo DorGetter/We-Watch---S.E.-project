@@ -25,7 +25,7 @@ public class ProfileManager extends AppCompatActivity implements View.OnClickLis
             FirebaseDatabase.getInstance().getReference("Managers");
 
 
-    Button logOut,openRequestsButton ,closedRequestsButton ,myMoviesButton ,StaticsButton ,uploadMovieButton;
+    Button logOut,openRequestsButton ,closedRequestsButton ,myMoviesButton ,myActivityButton ,uploadMovieButton;
 
 
     @Override
@@ -41,14 +41,14 @@ public class ProfileManager extends AppCompatActivity implements View.OnClickLis
         openRequestsButton      = (Button) findViewById(R.id.OpenRequestsButton)    ;
         closedRequestsButton    = (Button) findViewById(R.id.closedRequestsButton)  ;
         myMoviesButton          = (Button) findViewById(R.id.myMoviesButton)        ;
-        StaticsButton           = (Button) findViewById(R.id.uploadMovieButton)     ;
-        uploadMovieButton       = (Button) findViewById(R.id.StaticsButton)         ;
+        uploadMovieButton       = (Button) findViewById(R.id.uploadMovieButton)     ;
+        myActivityButton        = (Button) findViewById(R.id.M_myActivityButton)    ;
 
         logOut                  .setOnClickListener(this);
         openRequestsButton      .setOnClickListener(this);
         closedRequestsButton    .setOnClickListener(this);
         myMoviesButton          .setOnClickListener(this);
-        StaticsButton           .setOnClickListener(this);
+        myActivityButton        .setOnClickListener(this);
         uploadMovieButton       .setOnClickListener(this);
 
 
@@ -85,18 +85,17 @@ public class ProfileManager extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.myMoviesButton:
                 //directing to myMovies layout
-
                 break;
 
             case R.id.uploadMovieButton:
                 //directing to UploadMovies layout
-
+                startActivity(new Intent(this,UploadMovie.class));
                 break;
 
-            case R.id.StaticsButton:
+            case R.id.M_myActivityButton:
                 //directing to Statistics layout
-
                 break;
+
             case R.id.signOut:
                 //directed to Login layout (MainActivity).
                 startActivity(new Intent( this,MainActivity.class));
