@@ -75,31 +75,31 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
 
         //Validate inputs:
         if(fullName.isEmpty()){
-                editTextFullName.setError("Full name is required!");
-                editTextFullName.requestFocus();
-                return;
-            }
-            if(age.isEmpty()){
-                editTextAge.setError("Age is required!");
-                editTextAge.requestFocus();
-                return;
-            }
-            //parse to int.
-            int ageParse = Integer.parseInt(age);
-            if(ageParse < 0 || ageParse>120){
-                editTextAge.setError("Age need to be valid!");
-                editTextAge.requestFocus();
-                return;
-            }
+            editTextFullName.setError("Full name is required!");
+            editTextFullName.requestFocus();
+            return;
+        }
+        if(age.isEmpty()){
+            editTextAge.setError("Age is required!");
+            editTextAge.requestFocus();
+            return;
+        }
+        //parse to int.
+        int ageParse = Integer.parseInt(age);
+        if(ageParse < 0 || ageParse>120){
+            editTextAge.setError("Age need to be valid!");
+            editTextAge.requestFocus();
+            return;
+        }
 
-            if(email.isEmpty()){
-                editTextEmail.setError("Email address required!");
-                editTextEmail.requestFocus();
-                return;
-            }
-            if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                editTextEmail.setError("Please provide valid email!");
-                editTextEmail.requestFocus();
+        if(email.isEmpty()){
+            editTextEmail.setError("Email address required!");
+            editTextEmail.requestFocus();
+            return;
+        }
+        if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            editTextEmail.setError("Please provide valid email!");
+            editTextEmail.requestFocus();
             return;
         }
 
